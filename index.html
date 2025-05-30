@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Word Scramble</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Shopify Word Scramble</h1>
+            <div id="timer">Time: <span id="time-left">60</span>s</div>
+        </header>
+
+        <main>
+            <!-- Container for the word to be guessed -->
+            <div id="word-container">
+                <!-- Empty spaces will be generated here by JavaScript -->
+            </div>
+
+            <!-- Container for scrambled letters -->
+            <div id="letter-bank">
+                <!-- Scrambled letters will be generated here by JavaScript -->
+            </div>
+
+            <button id="submit-btn" disabled>Submit Answer</button>
+        </main>
+    </div>
+
+    <!-- Celebration Overlay -->
+    <div class="overlay" id="celebration-overlay">
+        <div class="overlay-content"></div>
+    </div>
+
+    <!-- Wrong Answer Overlay -->
+    <div class="overlay" id="wrong-overlay">
+        <div class="overlay-content"></div>
+    </div>
+
+    <!-- Timeout Overlay -->
+    <div class="overlay" id="timeout-overlay">
+        <div class="overlay-content"></div>
+    </div>
+
+    <!-- Hint Overlay -->
+    <div class="overlay" id="hint-overlay">
+        <div class="overlay-content"></div>
+    </div>
+    
+    <script src="js/game.js"></script>
+</body>
+</html> 
