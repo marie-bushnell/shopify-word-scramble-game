@@ -2,30 +2,41 @@
 
 A fun word scramble game featuring Shopify-themed words and categories! Test your knowledge of Shopify terms, Toronto culture, and tech stack while racing against the clock.
 
-## Play the Game
+[![Play Now](https://img.shields.io/badge/PLAY%20NOW-brightgreen?style=for-the-badge)](https://marie-bushnell.github.io/shopify-word-scramble-game/)
+[![GitHub](https://img.shields.io/badge/View%20on%20GitHub-blue?style=for-the-badge&logo=github)](https://github.com/marie-bushnell/shopify-word-scramble-game)
 
-Visit [add GitHub Pages URL after publishing] to play the game online!
+## How to Play
+
+🎮 [Play the Game Online](https://marie-bushnell.github.io/shopify-word-scramble-game/)
+
+Simply visit the game URL above to start playing! No installation required.
 
 ## Features
 
-- Multiple word categories (Toronto Life, Shopify Slang, Core Terms, Tech Stack)
+🎯 Multiple word categories:
+- Toronto Life
+- Shopify Slang
+- Core Terms
+- Tech Stack
+
+✨ Game Features:
 - Drag-and-drop or click-to-place letter tiles
 - Timer-based gameplay
-- Hint system
+- Hint system with strategic point deductions
 - Score tracking
-- Responsive design
+- Responsive design for all devices
 - Keyboard accessible
 
 ## Local Development
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/marie-bushnell/shopify-word-scramble-game.git
 ```
 
 2. Open the project folder:
 ```bash
-cd shopify-word-scramble
+cd shopify-word-scramble-game
 ```
 
 3. Since this is a static site, you can open `index.html` directly in your browser, or use a local server:
@@ -41,4 +52,8 @@ npx serve
 
 ## Contributing
 
-Feel free to submit issues and enhancement requests! 
+Feel free to submit issues and enhancement requests! Pull requests are welcome.
+
+## License
+
+This project is open source and available under the MIT License. 

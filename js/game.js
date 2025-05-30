@@ -49,7 +49,7 @@ const WORD_CATEGORIES = {
 const SUCCESS_MESSAGES = [
     "🚀 You're scaling faster than a Shopify store on Black Friday!",
     "🦄 That's some unicorn-level word solving!",
-    "🎯 Bullseye! Even our owl mascot is impressed!",
+    "🎯 Bullseye! Even Shoppy is impressed!",
     "💫 You're shipping solutions faster than our deployment pipeline!",
     "🌟 You're as bright as a merchant's first sale notification!",
     "🎨 That's some Liquid template level perfection!",
@@ -942,7 +942,7 @@ function handleWin() {
                 <div class="word-reveal">${gameState.currentWord}</div>
                 <div class="quirky-message">${successMessage}</div>
                 <div class="points-earned">+${wordScore} points!</div>
-                <button class="game-btn primary-btn continue-btn">Ready for Next Word!</button>
+                <button class="game-btn primary-btn continue-btn">Load the next word!</button>
             </div>
         `);
         createConfetti();
